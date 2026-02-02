@@ -15,5 +15,36 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-const [first, setfirst] = useState(second)
+{
+  "useState simple snippet": {
+    "prefix": "usss",
+    "body": [
+      "const [$1, set$1] = useState($2)"
+    ],
+    "description": "Simple useState snippet"
+  }
+}
+{
+  "CSS Reset": {
+    "prefix": "basicss",
+    "body": [
+      "* {",
+      "  margin: 0;",
+      "  padding: 0;",
+      "  box-sizing: border-box;",
+      "}"
+    ]
+  },
+
+  "HTML Body": {
+    "prefix": "hb",
+    "body": [
+      "html, body {",
+      "  width: 100%;",
+      "  height: 100%;",
+      "}"
+    ]
+  }
+}
+
 }
